@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Fredoka One', sans-serif;
+background-color: #ebebeb;
+}
+
+.container {
+    padding: 5%;
+    overflow: hidden;
+    background-color: #08bdbd;
+}
+
+.container h1 {
+    float: left;
+    margin-left: 10%;
+    color: #fff;
+}
+
+.container ul {
+    list-style: none;
+    font-size: 1rem;
+    margin-left: 60%;
+}
+
+.container li {
+    margin-top: 0.625rem;
+    float: left;
+    padding: 0 20px 0 20px;
+    color: #29bf12;
+}
+
+.container a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.current a::after {
+    content:'_';
+    background-color: #fff;
+    font-size: 0.25rem;
+    display: block;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+.equation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    background-color: #fff;
+    border-radius: 0.625rem;
+    text-align: center;
+    padding-top: 4%;
+    margin: 0.5rem 0.5rem 0 0.5rem;
+}
+
+.equation h1 {
+    display: inline;
+    padding: 1rem;
+}
+
+.answer-options {
+font-size: 4.063rem;
+margin-right: 0.625rem;
+float: right;
+}
+
+.answer-options h1 {
+    cursor: pointer;
+    color: whitesmoke;
+    border-radius: 5%;
+    margin-top: 1rem;
+    text-align: center;
+    width: 100%;
+}
+
+#option1 {
+    background-color: #ff9914;
+    transition: 1s;
+}
+
+#option1:hover {
+    color: #ff9914;
+    background-color: #fff;
+}
+
+#option2 {
+    background-color: #f21b3f;
+    transition: 1s;
+}
+
+#option2:hover {
+    color: #f21b3f;
+    background-color: #fff;
+}
+
+#option3 {
+    background-color: #29bf12;
+    transition: 1s;
+}
+
+#option3:hover {
+    color: #29bf12;
+    background-color: #fff;
+}
+
+.partA {
+    color: #29bf12;
+}
+
+.partB {
+    color: #08bdbd;
+}
+
+.partC {
+    color: #f21b3f;
+}
+
+.partD {
+    color: #ff9914;
+}
+
+.partE {
+    color: #c0c0c0;
+}
+
+/* @media only screen and (min-width: 500px)  {
+.answer-options {
+    float: left;
+    display: block;
+}
+}
+    .wrapper {
+      grid-template-columns: 20% auto;
+      grid-template-areas:
+      "equation equation"
+      "option1 option1"
+      "option2 option2"
+      "option3 option3";
+    }
+    } */
