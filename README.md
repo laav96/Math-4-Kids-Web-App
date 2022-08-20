@@ -1,5 +1,5 @@
 # Math-4-Kids-Web-App
-Math 4 Kids is a web application for grade school children to practice their math skills. I decided to create this application to use within our homeschool currirulum for my daughter to practice and develop proficiency in solving addition/subtraction problems.
+Math 4 Kids is a web application for grade school children to practice their math skills. I decided to create this application to use within our homeschool curriculum for my daughter to practice and develop proficiency in solving addition/subtraction problems.
 
 **Link to project:** https://mathfourkids.netlify.app
 
